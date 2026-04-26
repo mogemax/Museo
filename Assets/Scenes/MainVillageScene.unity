@@ -31846,8 +31846,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Duplicator
   clonePrefab: {fileID: 8082332729353295654, guid: d934307ed67da49aa8440944ca0d42e8, type: 3}
   spawnPoint: {x: 44.21, y: 22.098, z: 42.53}
-  xSpacing: 5
-  zSpacing: 2
+  xSpacing: 3
+  zSpacing: 1.5
 --- !u!1 &1850679905 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 740135015118879361, guid: e4509b8ffa235574993d4e43936eec8d, type: 3}

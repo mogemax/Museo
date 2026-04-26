@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class Force : MonoBehaviour
 {
-    private float forceAmount = 500f;
+    private float forceAmount = 50f;
+    [SerializeField] private bool fuerzaHaciaDerecha = true;
     Rigidbody rb;
-    Vector3 fDireccion = new Vector3 (0f, 0f, 1f);
+
     void Start()
     {
         rb=GetComponent<Rigidbody>();
@@ -14,6 +15,7 @@ public class Force : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Vector3 fDireccion = fuerzaHaciaDerecha ? Vector3.right : Vector3.left;
             //rb.AddForce(fDireccion * forceAmount * Time.time, ForceMode.Force);
             rb.AddForce(fDireccion * forceAmount, ForceMode.Force);
             Debug.Log("La velocidad es " + rb.linearVelocity);

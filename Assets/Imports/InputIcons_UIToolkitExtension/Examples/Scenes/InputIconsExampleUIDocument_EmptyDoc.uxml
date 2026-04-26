@@ -1,5 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:GroupBox name="rootObject" style="height: 293px; width: 1142px;">
-        <ui:Label text="Here will be some text which changes" display-tooltip-when-elided="true" style="font-size: 21px; color: rgb(241, 188, 44); -unity-text-align: upper-left; align-items: flex-start; height: 36px; width: 393px; margin-left: 700px; -unity-font-style: bold;" />
-    </ui:GroupBox>
-</ui:UXML>
