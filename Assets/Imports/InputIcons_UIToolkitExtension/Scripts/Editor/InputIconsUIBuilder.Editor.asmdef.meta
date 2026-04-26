@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4064f2e077a2a7b4a864921da67c9009
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 255994
+  packageName: Input Icons - UI Toolkit Extension
+  packageVersion: 1.1.07
+  assetPath: Assets/InputIcons_UIToolkitExtension/Scripts/Editor/InputIconsUIBuilder.Editor.asmdef
+  uploadId: 783674

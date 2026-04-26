@@ -1,0 +1,20 @@
+{
+    "name": "InputIconsUIBuilder",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.UIElementsModule",
+        "UnityEngine.TextCoreTextEngineModule",
+        "InputIcons",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

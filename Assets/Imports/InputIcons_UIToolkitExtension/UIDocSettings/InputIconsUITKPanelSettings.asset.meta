@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0b620bee87d4a5a42824e972926060ba
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 255994
+  packageName: Input Icons - UI Toolkit Extension
+  packageVersion: 1.1.07
+  assetPath: Assets/InputIcons_UIToolkitExtension/UIDocSettings/InputIconsUITKPanelSettings.asset
+  uploadId: 783674

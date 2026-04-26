@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8899453dfecd6794b81669a7baf71475
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 13804, guid: 0000000000000000e000000000000000, type: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 255994
+  packageName: Input Icons - UI Toolkit Extension
+  packageVersion: 1.1.07
+  assetPath: Assets/InputIcons_UIToolkitExtension/Examples/Scenes/InputIconsExampleUIDocument_EmptyDoc.uxml
+  uploadId: 783674

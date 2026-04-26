@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dc241b7f7f6f7474cb4dd250e6592d96
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 255994
+  packageName: Input Icons - UI Toolkit Extension
+  packageVersion: 1.1.07
+  assetPath: Assets/InputIcons_UIToolkitExtension/Scripts/Runtime/II_UIDocument.cs
+  uploadId: 783674

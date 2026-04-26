@@ -1,0 +1,23 @@
+{
+    "name": "InputIconsUIBuilder.Editor",
+    "rootNamespace": "",
+    "references": [
+        "InputIcons",
+        "InputIconsUIBuilder",
+        "Unity.InputSystem",
+        "InputIcons.Editor",
+        "UnityEditor.TextCoreTextEngineModule",
+        "UnityEngine.TextCoreTextEngineModule"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

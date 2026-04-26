@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 72f2686b384de294e983d0d4525264c3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 255994
+  packageName: Input Icons - UI Toolkit Extension
+  packageVersion: 1.1.07
+  assetPath: Assets/InputIcons_UIToolkitExtension/Scripts/Editor/InputIconsUITKManagerSOEditor.cs
+  uploadId: 783674

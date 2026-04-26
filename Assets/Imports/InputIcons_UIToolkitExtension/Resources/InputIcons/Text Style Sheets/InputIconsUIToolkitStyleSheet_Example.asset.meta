@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 72ae56d4cbf927f4f9eb27b4cabc9e0c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 255994
+  packageName: Input Icons - UI Toolkit Extension
+  packageVersion: 1.1.07
+  assetPath: Assets/InputIcons_UIToolkitExtension/Resources/InputIcons/Text Style
+    Sheets/InputIconsUIToolkitStyleSheet_Example.asset
+  uploadId: 783674
