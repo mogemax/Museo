@@ -23,9 +23,9 @@ public class Duplicator : MonoBehaviour
             DeactivateClones();
         }
 
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            DestroyScriptsInClones();
+            DestroyAllClones();
         }
     }
 

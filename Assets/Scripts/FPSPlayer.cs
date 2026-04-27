@@ -43,6 +43,11 @@ public class FPSPlayer : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0f)
+        {
+            return;
+        }
+
         HandleMouseLook();
         HandleMovement();
         HandleFootsteps();

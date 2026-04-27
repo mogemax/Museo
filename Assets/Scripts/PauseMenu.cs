@@ -4,9 +4,12 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuUI;
     private bool isPaused;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Awake()
     {
+        // Ensure gameplay is running when scene starts/reloads.
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
         isPaused = false;
     }
     
@@ -20,15 +23,19 @@ public class PauseMenu : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            pauseMenuUI.SetActive(true);
-            if (isPaused)
-            {
-                Resume();
-            }
-            else
-            {
-                Escape();
-            }
+            TogglePause();
+        }
+    }
+
+    public void TogglePause()
+    {
+        if (isPaused)
+        {
+            Resume();
+        }
+        else
+        {
+            Escape();
         }
     }
 
@@ -36,6 +43,9 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
+        AudioListener.pause = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         isPaused = false;
     }
 
@@ -43,6 +53,9 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
+        AudioListener.pause = true;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         isPaused = true;
     }
 
